@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="109" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
+  <suite name="Default suite" duration-ms="25777" started-at="2019-05-25T13:00:00Z" finished-at="2019-05-25T13:00:26Z">
     <groups>
     </groups>
-    <test name="Reg1" duration-ms="109" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
-      <class name="ant.testng.ClassTwo">
-        <test-method status="PASS" signature="twoTest()[pri:0, instance:ant.testng.ClassTwo@7f77e91b]" name="twoTest" duration-ms="16" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twoTest -->
-      </class> <!-- ant.testng.ClassTwo -->
-      <class name="ant.testng.ClassThree">
-        <test-method status="PASS" signature="threeTest()[pri:0, instance:ant.testng.ClassThree@44a664f2]" name="threeTest" duration-ms="0" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- threeTest -->
-      </class> <!-- ant.testng.ClassThree -->
+    <test name="Default test" duration-ms="25777" started-at="2019-05-25T13:00:00Z" finished-at="2019-05-25T13:00:26Z">
       <class name="ant.testng.ClassFour">
-        <test-method status="PASS" signature="fourTest()[pri:0, instance:ant.testng.ClassFour@7f9fcf7f]" name="fourTest" duration-ms="15" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
+        <test-method status="PASS" signature="fourTest()[pri:0, instance:ant.testng.ClassFour@58651fd0]" name="fourTest" duration-ms="25730" started-at="2019-05-25T13:00:00Z" finished-at="2019-05-25T13:00:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourTest -->
       </class> <!-- ant.testng.ClassFour -->
-      <class name="ant.testng.ClassOne">
-        <test-method status="PASS" signature="oneTest()[pri:0, instance:ant.testng.ClassOne@77e9807f]" name="oneTest" duration-ms="15" started-at="2019-04-29T05:34:19Z" finished-at="2019-04-29T05:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneTest -->
-      </class> <!-- ant.testng.ClassOne -->
-    </test> <!-- Reg1 -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
